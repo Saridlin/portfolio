@@ -1,0 +1,174 @@
+body, html{
+  margin: 0;
+  overflow-y: auto;
+  scrollbar-color: black;
+  color: rgb(255, 249, 234);
+  background-color: rgba(0,0,0,0.4);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: url("images/leaf.png"), default;
+}
+
+body::-webkit-scrollbar {
+  width: 15px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(97, 112, 61);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(242, 222, 141);    /* color of the scroll thumb */
+  border-radius: 3px;       /* roundness of the scroll thumb */
+  border: 2px solid rgb(97, 112, 61);  /* creates padding around scroll thumb */
+}
+
+canvas {
+  position: fixed !important;
+}
+
+p {
+  padding-left: 20px;
+}
+
+h1{
+  padding-bottom: 0px;
+}
+
+h6 {
+  color: #fac365;
+}
+
+h7 {
+  color: #fed691;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  line-height: 1.8;
+  padding-left: 20px;
+}
+
+.navbar ul{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  font-size: 20px;
+  z-index: 6;
+}
+
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  padding-right:40px;
+  padding-top: 10px;
+}
+
+.info {
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  bottom: 0px;
+  font-size: smaller;
+  background-color: rgba(0,0,0,0.2);
+  padding-right: 10px;
+}
+
+.info ul li{
+  list-style: none;
+  display: inline-block;
+  padding-right: 5px;
+  vertical-align: middle;
+}
+
+.credit {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  bottom: 0px;
+  font-size: smaller;
+  background-color: rgba(0,0,0,0.2);
+  padding-right: 10px;
+}
+
+.credit ul li{
+  list-style: none;
+  display: inline-block;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+.grid {
+  font-size: 25px;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(194, 191, 187);
+}
+
+.desc {
+  font-size: 20px;
+}
+
+a:link {
+  color: #de8d47;
+  text-decoration: none;
+  cursor: url("images/leaf-fall.png"), default;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #de8d47;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(118, 70, 17);
+  cursor: url("images/leaf-fall.png"), default;
+}
+
+a{color: white;}
+
+.content img {
+  width: 100%;
+  height: 100%;
+  min-width: 300px;
+  min-height: 300px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0px 0;
+}
+
+.content div {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.center{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.center-text-block{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.noscriptmsg{
+	margin: 20px;
+}
